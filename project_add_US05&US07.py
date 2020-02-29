@@ -187,7 +187,6 @@ def less_150_years_old(individual_repo):
             else:
                 US07_report[indi] = True
         else:
-            a = ageCalculator(indi_birth_date)
             if ageCalculator(indi_birth_date) > 150:
                 US07_report[indi] = False
             else:
